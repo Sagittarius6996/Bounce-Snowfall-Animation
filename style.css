@@ -22,7 +22,8 @@
         .chotabox {
             width: 100px;
             height: 100px;
-            background-color: rgb(255, 255, 255);
+            background: linear-gradient(#ffffff, #cfe7ff);
+
             position: absolute;
             bottom: 0;
             left: 0;
@@ -50,7 +51,7 @@
         }
 
         h1{
-            color: rgb(27, 181, 224);
+            color: rgb(255, 255, 255);
             text-align: center;
             margin-top: 20px;
             font-size: 150px;
@@ -83,7 +84,8 @@
             border-radius: 50%;
             animation: snow 6s linear infinite, wind 10s ease-in-out infinite;
             
-            background: #fff;
+           background: linear-gradient(#fefefe, #e0f7ff, rgba(255,255,255,0));
+
 
 
         }
